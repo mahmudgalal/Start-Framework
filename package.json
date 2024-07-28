@@ -2,7 +2,7 @@
   "name": "start-framework",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mahmudgalal.github.io/Start-Framwork",
+  "homepage": "https://mahmudgalal.github.io/Start-Framework",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
