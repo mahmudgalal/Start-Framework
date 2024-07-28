@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    background-color: #1ABC9C;
+    
+}
+
+label{
+    transition: 0.5s;
+}
+
+.background{
+    opacity: 0;
+    transition: 0.5s;
+}
+.card:hover .background{
+    opacity: 80%;
+}
+.photo{
+    background-color: rgba(0, 0, 0, 0.416);
+}
+
+@media (max-width: 768px) {
+    .about{
+        flex-direction: column;
+    }
+}
